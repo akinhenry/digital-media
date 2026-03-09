@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - SafetyUsingAI.org</title>
+    <link href="./output.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation Bar -->
+    <nav class="bg-white shadow-lg sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <!-- Logo -->
+                <div class="flex-shrink-0">
+                    <a href="index.html" class="flex items-center text-2xl font-bold text-blue-600 hover:text-blue-800 transition-colors">
+                        <img src="./images/cartoon-style-robot-vectorart_78370-4103 (1).jpg" alt="Robot Icon" class="w-8 h-8 mr-2">
+                        SafetyUsingAI.Org
+                    </a>
+                </div>
+
+                <!-- Desktop Menu -->
+                <div class="hidden md:flex items-center space-x-1">
+                    <a href="index.html" class="px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:text-white hover:bg-blue-600 transition-all duration-200">
+                        Home
+                    </a>
+                    <a href="advantages.html" class="px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:text-white hover:bg-blue-600 transition-all duration-200">
+                        Advantages of AI
+                    </a>
+                    <a href="disadvantages.html" class="px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:text-white hover:bg-blue-600 transition-all duration-200">
+                        Disadvantages of AI
+                    </a>
+                    <a href="safety-tips.html" class="px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:text-white hover:bg-blue-600 transition-all duration-200">
+                        Safety Tips
+                    </a>
+                    <a href="sources.html" class="px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:text-white hover:bg-blue-600 transition-all duration-200">
+                        Sources
+                    </a>
+                    <a href="about-us.html" class="px-3 py-2 rounded-md text-sm font-medium text-white bg-blue-600 transition-all duration-200">
+                        About Us
+                    </a>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <div class="md:hidden">
+                    <button id="mobileMenuBtn" class="inline-flex items-center justify-center p-2 rounded-md text-gray-700 hover:text-white hover:bg-blue-600 focus:outline-none transition-all duration-200">
+                        <svg id="menuIcon" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                        <svg id="closeIcon" class="w-6 h-6 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div id="mobileMenu" class="md:hidden hidden">
+            <div class="px-2 pt-2 pb-3 space-y-1">
+                <a href="index.html" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-white hover:bg-blue-600 transition-all duration-200">
+                    Home
+                </a>
+                <a href="advantages.html" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-white hover:bg-blue-600 transition-all duration-200">
+                    Advantages of AI
+                </a>
+                <a href="disadvantages.html" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-white hover:bg-blue-600 transition-all duration-200">
+                    Disadvantages of AI
+                </a>
+                <a href="safety-tips.html" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-white hover:bg-blue-600 transition-all duration-200">
+                    Safety Tips
+                </a>
+                <a href="sources.html" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-white hover:bg-blue-600 transition-all duration-200">
+                    Sources
+                </a>
+                <a href="about-us.html" class="block px-3 py-2 rounded-md text-base font-medium text-white bg-blue-600 transition-all duration-200">
+                    About Us
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-20 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-4xl mx-auto text-center">
+            <h1 class="text-4xl md:text-6xl font-bold mb-6">About Us</h1>
+            <p class="text-xl md:text-2xl text-blue-100 leading-relaxed">Learn about the mission behind SafetyUsingAI.org and how this educational website was created</p>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+
+        <!-- Creator Section -->
+        <section class="mb-16">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Meet the Creator</h2>
+                    <p class="text-lg text-gray-700 leading-relaxed mb-4">
+                        This website was created by Akin Henry, a future electrical engineer with a strong passion for technology and computer science. 
+                        Akin is dedicated to exploring how technology can solve real-world problems and make a positive impact on society.
+                    </p>
+                    <p class="text-lg text-gray-700 leading-relaxed mb-6">
+                        Beyond his studies in electrical engineering, Akin enjoys learning about programming, exploring computer science concepts, 
+                        and creating innovative projects with technology. He is particularly interested in understanding how artificial intelligence works 
+                        and how it can be used responsibly and ethically.
+                    </p>
+                    <div class="bg-blue-50 rounded-lg p-6 border-l-4 border-blue-500">
+                        <h3 class="font-semibold text-gray-900 mb-3">Areas of Interest</h3>
+                        <ul class="space-y-2 text-gray-700">
+                            <li class="flex items-center space-x-2">
+                                <svg class="w-5 h-5 text-blue-600" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                                </svg>
+                                <span>Computer Science</span>
+                            </li>
+                            <li class="flex items-center space-x-2">
+                                <svg class="w-5 h-5 text-blue-600" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                                </svg>
+                                <span>Roblox Game Development</span>
+                            </li>
+                            <li class="flex items-center space-x-2">
+                                <svg class="w-5 h-5 text-blue-600" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                                </svg>
+                                <span>Using Technology for Positive Impact</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="flex justify-center">
+                    <div class="w-64 h-64 bg-gradient-to-br from-blue-400 to-blue-600 rounded-lg shadow-lg flex items-center justify-center">
+                        <svg class="w-32 h-32 text-white opacity-80" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Website Development Section -->
+        <section class="mb-16">
+            <div class="bg-white rounded-lg shadow-lg p-8 md:p-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-8">How This Website Was Built</h2>
+                <p class="text-lg text-gray-700 leading-relaxed mb-8">
+                    SafetyUsingAI.org was built using modern web development technologies designed to create clean, responsive, and interactive websites. 
+                    These tools allow the website to work seamlessly on computers, tablets, and smartphones.
+                </p>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="bg-gray-50 rounded-lg p-6 hover:shadow-md transition-shadow duration-300">
+                        <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-4">
+                            <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4m0 6H6"></path>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-semibold text-gray-900 mb-3">HTML</h3>
+                        <p class="text-gray-700">
+                            HTML provides the basic structure and content of the website, organizing all text, images, and links into a well-organized format.
+                        </p>
+                    </div>
+                    <div class="bg-gray-50 rounded-lg p-6 hover:shadow-md transition-shadow duration-300">
+                        <div class="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center mb-4">
+                            <svg class="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01"></path>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-semibold text-gray-900 mb-3">Tailwind CSS</h3>
+                        <p class="text-gray-700">
+                            Tailwind CSS is a utility-based framework that helps style the website beautifully and ensures it looks great on all devices, from phones to computers.
+                        </p>
+                    </div>
+                    <div class="bg-gray-50 rounded-lg p-6 hover:shadow-md transition-shadow duration-300">
+                        <div class="w-12 h-12 bg-yellow-100 rounded-lg flex items-center justify-center mb-4">
+                            <svg class="w-6 h-6 text-yellow-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-semibold text-gray-900 mb-3">JavaScript</h3>
+                        <p class="text-gray-700">
+                            JavaScript adds interactive features to the website, such as the mobile menu that opens and closes, making the experience smooth and user-friendly.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Mission Section -->
+        <section class="mb-16">
+            <div class="bg-gradient-to-r from-blue-50 to-green-50 rounded-lg p-8 md:p-12 border-l-4 border-blue-500">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Our Mission</h2>
+                <p class="text-lg text-gray-700 leading-relaxed mb-6">
+                    SafetyUsingAI.org was created with one important goal: to help students understand artificial intelligence and use it safely and responsibly.
+                </p>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="bg-white rounded-lg p-6 shadow-md">
+                        <h3 class="text-lg font-semibold text-blue-600 mb-3">Educate</h3>
+                        <p class="text-gray-700">
+                            We provide clear, accurate information about what AI is, how it works, and what it can do for society and education.
+                        </p>
+                    </div>
+                    <div class="bg-white rounded-lg p-6 shadow-md">
+                        <h3 class="text-lg font-semibold text-blue-600 mb-3">Inform</h3>
+                        <p class="text-gray-700">
+                            We help students understand both the benefits and risks of artificial intelligence so they can make informed decisions.
+                        </p>
+                    </div>
+                    <div class="bg-white rounded-lg p-6 shadow-md">
+                        <h3 class="text-lg font-semibold text-blue-600 mb-3">Empower</h3>
+                        <p class="text-gray-700">
+                            We equip students with practical safety tips and knowledge to use AI responsibly and protect themselves online.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Content Overview Section -->
+        <section class="mb-16">
+            <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-8 text-center">What You'll Find on This Website</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-white rounded-lg shadow-md p-8">
+                    <h3 class="text-2xl font-semibold text-gray-900 mb-4 text-blue-600">Understanding AI</h3>
+                    <p class="text-gray-700 leading-relaxed mb-4">
+                        Learn what artificial intelligence is, how it works, and its role in modern technology and education.
+                    </p>
+                </div>
+                <div class="bg-white rounded-lg shadow-md p-8">
+                    <h3 class="text-2xl font-semibold text-gray-900 mb-4 text-blue-600">Advantages of AI</h3>
+                    <p class="text-gray-700 leading-relaxed mb-4">
+                        Explore the benefits of AI, including improved learning, automation, accessibility support, and faster data processing.
+                    </p>
+                </div>
+                <div class="bg-white rounded-lg shadow-md p-8">
+                    <h3 class="text-2xl font-semibold text-gray-900 mb-4 text-red-600">Disadvantages of AI</h3>
+                    <p class="text-gray-700 leading-relaxed mb-4">
+                        Understand the challenges and risks associated with AI, including misinformation, bias, privacy concerns, and job displacement.
+                    </p>
+                </div>
+                <div class="bg-white rounded-lg shadow-md p-8">
+                    <h3 class="text-2xl font-semibold text-gray-900 mb-4 text-green-600">Safety Tips</h3>
+                    <p class="text-gray-700 leading-relaxed mb-4">
+                        Get practical, actionable advice on how to use AI tools safely, protect your personal information, and use AI responsibly.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action Section -->
+        <section class="mb-16">
+            <div class="bg-gray-50 rounded-lg p-8 md:p-12 text-center">
+                <h2 class="text-2xl font-bold text-gray-900 mb-6">Ready to Learn?</h2>
+                <p class="text-lg text-gray-700 mb-8 max-w-2xl mx-auto">
+                    Explore the different sections of our website to learn more about artificial intelligence and how to use it safely and responsibly.
+                </p>
+                <a href="index.html" class="inline-block bg-blue-600 text-white px-8 py-4 rounded-lg hover:bg-blue-700 transition-colors duration-200 font-medium text-lg">
+                    Return to Home
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <p class="text-lg font-semibold mb-2">SafetyUsingAI.org</p>
+            <p class="text-gray-300">Educational website about responsible AI use</p>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile Menu Toggle
+        const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+        const mobileMenu = document.getElementById('mobileMenu');
+        const menuIcon = document.getElementById('menuIcon');
+        const closeIcon = document.getElementById('closeIcon');
+
+        mobileMenuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+            menuIcon.classList.toggle('hidden');
+            closeIcon.classList.toggle('hidden');
+        });
+
+        // Close menu when a link is clicked
+        const menuLinks = mobileMenu.querySelectorAll('a');
+        menuLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+                menuIcon.classList.remove('hidden');
+                closeIcon.classList.add('hidden');
+            });
+        });
+    </script>
+</body>
+</html>
